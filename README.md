@@ -9,7 +9,7 @@ Common use cases include (but not limited to) :
 
 Usage
 
-    git clone https://github.com/mac-oya/workflow
+    git clone https://github.com/mac-oya/gluonplasma
     make
 
 
