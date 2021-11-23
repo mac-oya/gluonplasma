@@ -51,3 +51,7 @@ Memory reclamation mechanism
     SeriesWork and ParallelWork are two kinds of framework objects, which are also recycled after their callback.
         When a series is a branch of a parallel, it will be recycled after the callback of the parallel that it belongs to.
     This project doesn’t use std::shared_ptr to manage memory.
+Get started (Linux, macOS):
+
+git clone https://github.com/mac-oya/workflow
+make
