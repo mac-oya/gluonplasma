@@ -44,14 +44,10 @@ Asynchrony and encapsulation based on C++11 std::function
         Any server's process. This conforms to the FaaS (Function as a Service) idea.
         The realization of an algorithm is simply a std::function. But the algorithm can also be implemented by derivation.
 
-Memory reclamation mechanism
+Usage
 
-    Every task will be automatically reclaimed after the callback. If a task is created but a user does not want to run it, the user needs to release it through the dismiss method.
-    Any data in the task, such as the response of the network request, will also be recycled with the task. At this time, the user can use std::move() to move the required data.
-    SeriesWork and ParallelWork are two kinds of framework objects, which are also recycled after their callback.
-        When a series is a branch of a parallel, it will be recycled after the callback of the parallel that it belongs to.
-    This project doesn’t use std::shared_ptr to manage memory.
-Get started (Linux, macOS):
+    git clone
+    make
 
-git clone https://github.com/mac-oya/workflow
-make
+
+
